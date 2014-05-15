@@ -1,0 +1,389 @@
+
+body{
+	font-size: 16px;
+
+	font-family: 'Gochi Hand', cursive;  
+}
+footer{
+	background-color: #604214;
+	height: 50px;
+	margin-top: 2px;
+	text-align: center;
+	line-height: 50px;
+	color: #f7f7f7;
+	font-size: 0.8em;
+}
+header{
+	background-color: #604214;
+	text-align: right;
+}
+header figure{
+	float: left;
+	margin-left:100px;
+}
+header figure img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+header h1{
+	color: #f7f7f7;
+	float: left;
+	margin:7px 80px 0px 50px;
+	padding: 0px;
+	font-size: 1.6em;
+	display: block;
+}
+
+header nav ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-align: center;
+}
+header nav ul li{
+	display: inline-block;
+
+	height: 35px;
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #f7f7f7;
+	font-weight: bold;
+	padding: 15px 25px;
+}
+
+section{
+	width: 100%;
+	display: inline-block;
+	background: url(../imagenes/fondo.jpg);
+}
+
+section article.receta{
+	border-width: 2px;
+	border-style: solid;
+	width: 85%;
+	margin: 50px 0px 20px 10%;
+	display: inline-block;
+	position: relative;
+	border-radius: 0px 0px 15px 15px;
+	vertical-align: top;
+	font-size: 1.2em;
+
+}
+section article.receta figure{
+	margin:0px;
+	padding: 0px;
+	/*position: absolute;*/
+
+	float: left;
+	margin-top: -50px;
+	margin-left: -30px;
+}
+section article.receta figure img{
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+	width: 180px;
+	height: 140px;
+}
+section article.receta h2{
+	padding: 0px;
+	text-align: right;
+	margin: 15px 20px 0px 165px;
+	font-size: 1.2em;
+}
+section article.receta p{
+	margin: 15px 10px 5px 30px;
+	font-size: 0.8em;
+	text-align: justify;
+}
+section article.receta div{
+	width: 90%;
+	margin: 30px 5% 10px 5%;
+	border-width: 2px;
+	border-style: solid;
+	position: relative;
+	padding-top: 20px;
+	font-size: 0.9em;
+	border-radius: 15px;
+}
+section article.receta div span{
+	background-color: white;
+	position: absolute;
+	line-height: 20px;
+	top: -15px;
+	left: 10px;
+	padding: 3px 10px;
+	border-radius: 15px;
+	text-decoration: underline;
+}
+section article.receta div ul{
+	margin:0px;
+	padding: 0px;
+	list-style: circle;
+}
+section article.receta div ul li{
+	display: inline-block;
+	margin: 5px 3%;
+	width: 26%;
+	font-weight: bolder;
+	vertical-align: middle;
+}
+
+section article.receta span.tipo{
+	position: absolute;
+	right: -2px;
+	height: 30px;
+	top: -38px;
+	border-width: 2px;
+	border-style: solid;
+	line-height: 30px;
+	padding: 2px 10px;
+	border-radius: 15px 15px 0px 0px;
+	font-weight: bolder;
+	color: #F7F7F7;
+
+}
+
+/***********************************************************
+******************** COLORES POSTRE ************************
+***********************************************************/
+
+/* COLOR 1 */
+section article.postre,
+section article.postre figure img,
+section article.postre div,
+section article.postre span.tipo{
+	border-color: #1B0C02;
+}
+/* COLOR 2 */
+section article.postre h2{
+	color: #5A3107;
+}
+
+section article.postre span.tipo,
+section article.postre div,
+section article.postre div span{
+	background-color: #5A3107;
+}
+/* COLOR 3 */
+section article.postre p{
+	color: #97521E;
+}
+/* COLOR 4 */
+
+section article.postre{
+	background-color: #B29178;
+}
+/* COLOR 5 */
+section article.postre div span,
+section article.postre div ul li{
+	color: #F5CBA2;
+}
+
+/***********************************************************
+********************** COLORES DESAYUNO ********************
+***********************************************************/
+
+/* COLOR 1 */
+section article.desayuno,
+section article.desayuno figure img,
+section article.desayuno div,
+section article.desayuno span.tipo{
+	border-color: #082E0B;
+}
+/* COLOR 2 */
+section article.desayuno h2{
+	color: #154419;
+}
+
+section article.desayuno span.tipo,
+section article.desayuno div,
+section article.desayuno div span{
+	background-color: #154419;
+}
+/* COLOR 3 */
+section article.desayuno p{
+	color: #3E7242;
+}
+/* COLOR 4 */
+
+section article.desayuno{
+	background-color: #C0EE90;
+}
+/* COLOR 5 */
+section article.desayuno div span,
+section article.desayuno div ul li{
+	color: #9CD95C;
+}
+
+/***********************************************************
+********************* COLORES PESCADO **********************
+***********************************************************/
+
+/* COLOR 1 */
+section article.pescado,
+section article.pescado figure img,
+section article.pescado div,
+section article.pescado span.tipo{
+	border-color: #020F2B;
+}
+/* COLOR 2 */
+section article.pescado h2{
+	color: #08215B;
+}
+
+section article.pescado span.tipo,
+section article.pescado div,
+section article.pescado div span{
+	background-color: #08215B;
+}
+/* COLOR 3 */
+section article.pescado p{
+	color: #335093;
+}
+/* COLOR 4 */
+
+section article.pescado{
+	background-color: #ADE0F0;
+}
+/* COLOR 5 */
+section article.pescado div span,
+section article.pescado div ul li{
+	color: #9DB7F5;
+}
+
+/***********************************************************
+************************** SLIDER **************************
+***********************************************************/
+div#InicioAncho{
+	position: relative;
+	width: 100%;
+	display: none;
+	border:1px solid transparent;
+}
+
+div#InicioAncho #slider {
+	border-radius: 10px;
+	border: 2px solid #8A0868;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	min-height: 550px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 95%;
+}
+div#InicioAncho #slider div.elemento {
+	left:0;
+	position:absolute;
+	top:0;
+	width: 100%;
+}
+div#InicioAncho #slider img {
+	border:0;
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+div#InicioAncho #slider a{
+	text-decoration: none;
+}
+div#InicioAncho #slider p.gancho {
+	color: #DF7401;
+	display: block;
+	font-size: 1.4em;
+	font-weight: bolder;
+	line-height: 25px;
+	position: absolute;
+	right: 1%;
+	text-shadow: 2px 2px 3px white, -2px -2px 3px white;
+	top: 5%;
+	width: 29%;
+}
+
+
+section div.news{
+	float: right;
+	width: 30%;
+	background-color: white;
+	border:1px solid black;
+	margin-right: 20px;
+	display: none;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+section div.news h2{
+	text-align: center;
+
+}
+
+section div.news article.post{
+	width: 95%;
+	margin-left: 2%;
+	border-top: 2px solid #440A4E;
+	margin-top: 35px;
+}
+section div.news article.post figure{
+	float: left;
+	margin-top: 10px;
+}
+section div.news article.post figure img{
+	width: 70px;
+}
+section div.news article.post h3{
+	margin-left: 85px;
+}
+section div.news article.post p{
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: justify;
+	margin: 5px 5% 20px 5%;
+}
+section div.news article.post video{
+	width: 90%;
+	margin: 0px 5%;
+}
+
+
+
+@media screen and (min-width: 480px){
+	header nav ul li{
+		width: 22%;
+		text-align: center;
+	}
+	
+}
+@media screen and (min-width: 767px){
+	header nav ul li{
+		width: 8%;
+		margin: 10px 0px 0px 0px;
+		text-align: center;
+	}
+	
+
+	section article.receta{
+		width: 40%;
+		margin: 50px 3% 20px 6%;
+	}
+
+	div#InicioAncho{
+		display: inline;
+	}
+}
+@media screen and (min-width: 950px){
+	
+	section article.receta{
+		width: 26%;
+		margin: 50px 1% 20px 5%;
+	}
+	section div.news{
+		display: inline;
+	}
+
+}
